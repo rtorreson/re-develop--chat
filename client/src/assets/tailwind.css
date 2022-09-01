@@ -1,0 +1,99 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.Toastify__toast--success {
+  background-color: #222121;
+  color: rgb(106, 214, 106);
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+blockquote {
+  @apply border-l-4;
+  @apply pl-2;
+  @apply mr-2;
+}
+
+textarea {
+  resize: none;
+}
+
+.gradient {
+  /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+  background: linear-gradient(90deg, #4c43c7 0%, #187a7a 100%);
+}
+
+.gradient-2 {
+  background: linear-gradient(to right, #222c41, #19243b);
+}
+
+.Toastify__toast {
+  min-height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Toastify__toast-container {
+  width: max-content !important;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.hover\:w-64:hover {
+  width: 45%;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d3748;
+  border: 0 none #fff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2b6cb0;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a202c;
+  border: 0px none #fff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #666;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #333;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
